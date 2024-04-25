@@ -1,0 +1,27 @@
+# Set the default behavior, in case core.autocrlf has been set.
+* text=auto
+
+# Declare files that will always be normalized and converted to native line endings on checkout.
+*.s text
+*.S text
+*.c text
+*.h text
+*.cpp text
+*.hpp text
+*.txt text
+
+# Declare files that will always have CRLF line endings on checkout.
+#*.extension text eol=crlf
+
+# Declare files that will always have LF line endings on checkout.
+*.py text eol=lf
+*.sh text eol=lf
+*.uvmpw text eol=lf
+*.uvprojx text eol=lf
+*.uvoptx text eol=lf
+
+# Denote files that are binaries and should not be modified.
+*.bin binary
+*.axf binary
+*.png binary
+*.jpg binary

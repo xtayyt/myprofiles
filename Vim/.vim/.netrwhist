@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/D/Project'
+let g:netrw_dirhist_2='/D/Project/ts113b_project/project/TS113B_CPU0_BOOTROM/MDK-ARM/Objects'
+let g:netrw_dirhist_1='/c/Users/admin/Desktop'

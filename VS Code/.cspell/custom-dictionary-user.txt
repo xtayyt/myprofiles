@@ -1,0 +1,10 @@
+# Custom Dictionary Words
+armcc
+armclang
+ARMCM
+cacheable
+DTCM
+EFLASH
+ITCM
+trustzone
+vtor

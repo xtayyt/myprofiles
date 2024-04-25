@@ -1,0 +1,83 @@
+################################################################
+# Ignore
+################################################################
+# Hidden files
+.*
+
+# binary files
+*.bin
+*.hex
+
+# VIM temp file
+*.*~
+
+# Common object folder
+Release
+Debug
+Output
+Build
+
+
+# Keil relocatable object files.
+*.o
+*.d
+# Keil object file folder
+Objects
+# Keil list file folder
+Listings
+# Keil system component viewer description file
+*.scvd
+# Keil window description file
+*.uvgui.*
+*.uvguix.*
+
+# IAR settings folder
+settings
+# IAR browse information folder
+BrowseInfo
+# IAR executable file folder
+Exe
+# IAR object file folder
+Obj
+# IAR list file folder
+List
+# IAR dependency information file
+*.dep
+# IAR project settings for C-STAT and C-RUN file
+*.ewt
+# IAR Workspace desktop settings file
+*.wsdt
+# IAR Backup file
+Backup\ of\ *
+
+# JLink Log
+JLinkLog.txt
+# JLink debug setting file
+JLinkSettings.ini
+
+# Doxygen outputs
+build_zh
+build_en
+
+# WinMerge backup file
+*.*.bak
+
+# Python cache files
+__pycache__
+
+################################################################
+# Exceptions
+################################################################
+
+# Keil debug initialization file
+!Debug.ini
+# Clang-format configuration file
+!.clang-format
+# Clang-format ignore file
+!.clang-format-ignore
+# Git ignore file
+!.gitignore
+# Git attributes file
+!.gitattributes
+# Git submodule file
+!.gitmodules
